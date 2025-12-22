@@ -1,0 +1,22 @@
+.Head-first{
+    color:blue;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
+}
+.Head_second{
+    color:brown;
+    font-size: 40px;
+    font-style: cursive;
+    margin-top: 200px;
+}
+.sample{
+    border: 2px solid black;
+    width: 143px;
+    padding: 10px;
+    background-color: yellowgreen;
+    color: red
+}
+.Whole{
+    background-color: red;
+}

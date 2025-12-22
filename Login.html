@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User</title>
+        <link rel="stylesheet" href="Login.css"/>
+    <body class="Whole">
+        <div class="container">
+            <h1 class="Head">Login Page</h1>
+            <label>Username: </label><br/>
+            <input type="text" id="user"/><br/>
+            <label>Password: </label><br/>
+            <input type="password" id="pass"/><br/><br/>
+            <button onclick="handlelogin()">Login</button>
+        </div>
+        <script>
+            function handlelogin(){
+                let username = document.getElementById("user").value
+                let password = document.getElementById("pass").value
+                
+                let olduser = localStorage.getItem("user")
+                let oldpass = localStorage.getItem("pass")
+
+                if(olduser == username && oldpass == password){
+                    alert("Validation success")
+                }else{
+                    alert("Validation not success")
+                }
+            }
+        </script>
+        
+    </body>
+    </head>
+</html>

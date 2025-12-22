@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome Rahul!!</h1>
+    <h1 id="sample">0</h1>
+    <button onclick="handleshow()">Show</button>
+    <button onclick="handlehide()">Hide</button>
+    
+    <label id="body"></label>
+    <script>
+        var data = 0
+        document.getElementById("sample").textContent = "Hello JS!!"
+        document.getElementById("body").textContent = "Let's start!"
+        function handleshow(){
+            document.getElementById("sample").textContent = "Hello JS!!"
+        }
+        function handlehide(){
+            document.getElementById("sample").textContent = ""
+        }
+        
+    </script>
+</body>
+</html>

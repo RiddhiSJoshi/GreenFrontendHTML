@@ -1,0 +1,81 @@
+.wrapleft{
+    background-color: hsla(218, 88%, 61%, 1);
+    height: 100vh;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 56px;
+    padding-left: 9%;
+    padding-top: 5%;
+}
+.wel{
+    margin-left: 40px;
+}
+.manage{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.logo{
+    width: 30%;
+    margin-left: 40px;
+}
+.img{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.sgn{
+    padding-top: 70px; 
+    padding-left: 50px;
+}
+.para{
+    padding-left: 50px;
+}
+.lab{
+    padding-left: 50px;
+}
+.label{
+    padding-left: 50px;
+}
+.wrapright{
+    display: flex;
+    flex-direction: column;
+}
+.mail{
+    width: 60%;
+    margin-left: 50px;
+}
+.pass{
+    width: 60%;
+    margin-left: 50px;
+}
+.item{
+    display: flex;
+    gap: 40%;
+    margin-left: 50px;
+}
+.item-one{
+    /* display:flex;
+    gap: 12px; */
+    color: hsla(0, 0%, 0%, 1);
+    /* color: hsla(218, 88%, 61%, 1); */
+}
+.item-two{
+    /* display:flex;
+    gap: 12px; */
+    color: hsla(218, 88%, 61%, 1);
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    color: hsla(0, 0%, 100%, 1);
+    /* background-color: hsla(218, 88%, 61%, 1); */
+}
+.wrapl{
+    width: 30%;
+    height: 50px;
+    margin-right: 50px;
+}
+.wrapr{
+    width: 30%;
+    height: 50px;
+    margin-left: 50px;
+}

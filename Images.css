@@ -1,0 +1,15 @@
+/* .wall{
+    width: 100px;
+    height: 90px;
+    position:relative;
+}
+.hlo{
+    position:absolute;
+    top: 0px;
+    color: white;
+} */
+.totalwrap{
+    background-image: url("./Images/Tree.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

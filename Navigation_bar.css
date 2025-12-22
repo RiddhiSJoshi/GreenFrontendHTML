@@ -1,0 +1,19 @@
+.wrap{
+    display:flex;
+    gap: 50px; 
+    /* justify-content: space-around; */
+    background-color: bisque;
+    padding: 5px;
+}
+.wrap-new{
+    display:flex;
+    justify-content: space-around;
+    background-color: azure;
+    flex-direction: column;
+    padding: 5px;
+    height: 90vh;
+    width: 100px;
+}
+/* .test{
+    margin-left: 60%;
+} */

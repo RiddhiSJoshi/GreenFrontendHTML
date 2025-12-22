@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="handledate()" id="date">Date</button>
+    <button onclick="handlehour()" id="hour">Hour</button>
+    <button onclick="handleminutes()" id="mins">Minutes</button>
+    <button onclick="handleseconds()" id="secs">Seconds</button>
+    <button onclick="handleyear()" id="year">Year</button>
+    <script>
+        let date = new Date()
+        function handledate(){
+            document.getElementById("date").textContent = date.getDate()
+        }
+        function handlehour(){
+            document.getElementById("hour").textContent = date.getHours()
+        }
+        function handleminutes(){
+            document.getElementById("mins").textContent = date.getMinutes()
+        }
+        function handleseconds(){
+            document.getElementById("secs").textContent = date.getSeconds()
+        }
+        function handleyear(){
+            document.getElementById("year").textContent = date.getFullYear()
+        }
+    </script>
+</body>
+</html>

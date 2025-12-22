@@ -1,0 +1,109 @@
+.wrapleft{
+    background-color: hsla(218, 88%, 61%, 1);
+    height: 180vh;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 56px;
+    padding-left: 9%;
+    padding-top: 5%;
+}
+.wel{
+    margin-left: 40px;
+}
+.manage{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.logo{
+    width: 30%;
+    margin-left: 40px;
+}
+.img{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.wrapright{
+    display: flex;
+    flex-direction: column;
+}
+.sgn{
+    padding-top: 40px; 
+    padding-left: 40px;
+}
+.para{
+    padding-left: 40px;
+}
+.first{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+.fname{
+    width: 30%;
+}
+.lname{
+    width: 30%;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.phone{
+    width: 30%;
+}
+.email{
+    width: 40%;
+    height: 20vh;
+}
+.third{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.pass{
+    width: 30%;
+}
+.confm{
+    width: 30%;
+}
+.labh{
+    padding-left: 40px;
+}
+.hosp{
+    width: 40%;
+    margin-left: 50px;
+}
+.fourth{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+.state{
+    width: 30%;
+}
+.zip{
+    width: 30%;
+}
+.agree{
+    display:flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    color: hsla(0, 0%, 100%, 1);
+    margin-top: 40px;
+    padding-left: 40px;
+    /* background-color: hsla(218, 88%, 61%, 1); */
+}
+.wrapl{
+    width: 40%;
+}
+.wrapr{
+    width: 40%;
+}
