@@ -48,7 +48,7 @@
             </div>
             <div class="buttons">
             <button onclick="handlesignup()" class="p-3 mb-2 bg-info text-white wrapl">Sign Up</button>
-            <button class="p-3 mb-2 bg-white text-dark wrapr">Sign In</button>
+            <button onclick="handlesignin()" class="p-3 mb-2 bg-white text-dark wrapr">Sign In</button>
             </div>
         </div>
     </div>
@@ -72,8 +72,10 @@
                 localStorage.setItem("pass", password)
                 localStorage.setItem("confirm pass", confirm_password)
                 alert("SignUp success")
-                window.location.href = "Second_task.html"
             }
+        }
+        function handlesignin(){
+            window.location.href = "Second_task.html"
         }
     </script>
 </body>

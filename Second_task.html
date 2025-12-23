@@ -30,7 +30,7 @@
             </div>
             <div class="buttons">
             <button onclick= "handlesignin()" class="p-3 mb-2 bg-info text-white wrapl">Sign In</button>
-            <button class="p-3 mb-2 bg-white text-dark wrapr">Sign Up</button>
+            <button onclick="handlesignup()" class="p-3 mb-2 bg-white text-dark wrapr">Sign Up</button>
             </div>
         </div>
     </div>
@@ -47,6 +47,9 @@
             }else{
                 alert("Validation not success")
             }
+        }
+        function handlesignup(){
+            window.location.href = "Fifth_task.html"
         }
     </script>
 </body>
